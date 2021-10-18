@@ -1,0 +1,266 @@
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+  }
+
+  .section-content {
+    margin: 35px 91px 0px 18px;
+  }
+
+  .section-content-header {
+    width: 100%;
+  }
+
+  .main-content-sorting {
+    margin: 18px 0px 0px 0px;
+  }
+
+  .main-content-collage {
+    margin: 0px 0px 0px 0px;
+    justify-content: center;
+  }
+
+  .main-content-collage-photos {
+    width: 320px;
+  }
+
+  .main-content-designers-title-box {
+    display: block;
+    text-align: center;
+  }
+
+  .main-content-designers-box {
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .main-content-table {
+    margin: 35px 65px 0px 35px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sidenav {
+    width: 100%;
+  }
+  .design-today-logo {
+    display: none;
+  }
+
+  .followers-title {
+    text-align: center;
+  }
+
+  .sidenav-horizontal-menu {
+    display: block;
+    text-align: center;
+  }
+
+  .sidenav-vertical-menu-buttons {
+    font-size: 15px;
+  }
+
+  .section-content-header-go-pro {
+    display: none;
+  }
+
+  .section-content-header {
+    width: 700px;
+  }
+
+  .section-content-header {
+    width: 760px;
+  }
+
+  .main-content-categories-filter-button {
+    display: none;
+  }
+
+  .main-content-categories-button {
+    width: 760px;
+  }
+
+  .main-content-designers-box {
+    justify-content: center;
+  }
+
+  .main-content-additional-information {
+    column-gap: 20px;
+  }
+
+  th {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  td {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidenav {
+    width: 100%;
+  }
+
+  .sidenav-vertical-menu {
+    margin-top: 50px;
+    font-size: 12px;
+  }
+
+  .sidenav-vertical-menu-buttons {
+    font-size: 12px;
+  }
+
+  #home-button {
+    padding: 14px 0px 14px 26px;
+  }
+
+  .followers-title {
+    text-align: center;
+  }
+
+  .section-content-header-searcher {
+    width: 235px;
+  }
+
+  .section-content-header {
+    width: 560px;
+  }
+
+  .main-content-collage {
+    justify-content: space-evenly;
+  }
+
+  .collage-photos {
+    width: 60%;
+    height: 60%;
+  }
+
+  .main-content-collage-photos-box span {
+    text-align: center;
+  }
+
+  .main-content-categories-button span {
+    padding: 18px 20px;
+  }
+
+  .main-content-categories-button {
+    width: 566px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .main-content-collage {
+    justify-content: left;
+  }
+
+  .main-content-collage-photos {
+    width: 270px;
+  }
+
+  .main-content-collage-photos-box span {
+    width: 60%;
+  }
+
+  .main-content-collage-photos-load-more-box {
+    margin: 60px;
+    font-size: 12px;
+  }
+
+  .main-content-designers {
+    margin: 0px 50px 0px 50px;
+  }
+
+  .main-content-designers-title {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .main-content-designers-box {
+    column-gap: 15px;
+  }
+
+  .main-content-additional-information {
+    margin: 30px 100px 30px 100px;
+  }
+
+  ul {
+    font-size: 13px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .footer-social-media-content {
+    margin: 40px 130px 40px 130px;
+  }
+
+  .main-content-table {
+    margin: 30px 65px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sidenav {
+    width: 100%;
+  }
+
+  .section-content-account-reminder-icon-box,
+  .section-content-account-message-icon-box {
+    display: none;
+  }
+
+  .section-content-header {
+    width: 545px;
+  }
+
+  .section-content-account-logos {
+    justify-content: space-evenly;
+  }
+
+  .main-content-collage {
+    justify-content: center;
+  }
+
+  .section-content {
+    width: 100%;
+  }
+
+  .main-content-collage-photos {
+    width: 225px;
+  }
+
+  .main-content-collage {
+    width: 505px;
+  }
+
+  .main-content-collage-photos-load-more-box {
+    margin: 53px 0px 20px 120px;
+  }
+
+  .main-content-designers {
+    margin: 45px 0px 0px 105px;
+  }
+
+  .main-content-designers-box {
+    margin-top: 40px;
+  }
+
+  .main-content-additional-information {
+    margin: 20px -30px 20px 86px;
+  }
+
+  .footer-social-media-content {
+    margin: 40px -32px 40px 89px;
+  }
+
+  th {
+    font-size: 13px;
+  }
+
+  td {
+    font-size: 11px;
+  }
+}

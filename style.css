@@ -1,0 +1,532 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  /* padding: 0 15px; */
+}
+
+.sidenav {
+  padding: 42px 30px 106px 30px;
+  background-color: #222222;
+  width: 390px;
+}
+
+/* ↓ Horizontal sidenav starts here ↓ */
+
+.sidenav-menu {
+  cursor: context-menu;
+}
+
+.design-today-logo {
+  color: white;
+  font-size: 24px;
+  font-family: "Avenir Book";
+  cursor: pointer;
+}
+
+.design-today-logo span {
+  font-family: "Avenir Black";
+}
+
+.sidenav-horizontal-menu {
+  display: flex;
+  justify-content: space-between;
+}
+/* ↑ Horizontal sidenav ends here ↑ */
+/* ↓ Vertical sidenav starts here ↓ */
+
+.sidenav-vertical-menu {
+  margin-top: 101px;
+}
+
+.sidenav-vertical-menu-buttons {
+  margin-top: 5px;
+  padding: 18px 0px 18px 30px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Avenir Medium";
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.sidenav-vertical-menu-buttons:hover {
+  background-color: #ff2288;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.sidenav-vertical-menu-buttons span {
+  padding-left: 15px;
+}
+
+.sidenav-vertical-menu-followers {
+  padding: 7.5px 0px 7.5px 30px;
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.sidenav-vertical-menu-followers:hover {
+  background-color: #0f52ba;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.sidenav-vertical-menu-followers-list {
+  color: white;
+  font-family: "Avenir Medium";
+}
+
+.followers-title {
+  font-family: "Avenir Heavy";
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 0px 0px 15px 31px;
+  cursor: default;
+}
+
+.sidenav-vertical-menu-followers-list span {
+  padding-left: 20px;
+}
+
+.sidenav-vertical-menu-followers-list {
+  margin-top: 87px;
+}
+
+.load-more-sidenav {
+  font-size: 14px;
+  font-family: "Avenir Heavy";
+  padding: 11.5px 0px 0px 30px;
+  cursor: pointer;
+}
+
+/* ↑ Sidebar ends here ↑ */
+/* ↓ Header and Section content header search (left side of header) starts here ↓ */
+
+.section-content {
+  margin: 35px 91px 0px 25px;
+  width: 100%;
+}
+
+.section-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-content-header-searcher {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 17px;
+  background: #f8f8f8;
+  color: gray;
+}
+
+#search {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  width: 392px;
+  border-radius: 12px;
+}
+
+::placeholder {
+  font-family: "Avenir Heavy";
+  font-size: 14px;
+  opacity: 50%;
+}
+
+/* ↑ Section content header search (lef side of header) ends here ↑ */
+/* ↓ Section content account (right side of header) starts here ↓ */
+
+.section-content-header-account {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Avenir Heavy";
+  color: #ff2288;
+  text-transform: uppercase;
+}
+
+.section-content-header-go-pro {
+  cursor: pointer;
+  padding-right: 35px;
+}
+
+.section-content-account-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.section-content-account-logos img {
+  cursor: pointer;
+}
+
+.header-message-icon-pink-dot {
+  width: 9px;
+  height: 9px;
+  background-color: #ff2288;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+button {
+  background-color: #ff2288;
+  color: white;
+  padding: 17px 36px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Avenir Heavy";
+}
+
+button:hover {
+  background-color: #bd1865;
+  transition: all 0.2s ease;
+}
+
+/* ↑ Header and Section content account (right side of header) ends here ↑ */
+/* ↓ Main content and main content categories starts here ↓ */
+
+.main-content-sorting {
+  margin: 71px 100px 0px 157px;
+}
+
+.main-content-categories {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Avenir Book";
+  align-items: center;
+}
+
+.main-content-categories-button {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+  align-items: center;
+}
+
+.all-button {
+  background: #f2f2f2;
+  padding: 16px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.main-content-categories-button span {
+  padding: 18px 22px;
+}
+
+.main-content-categories-button span:hover {
+  background: #f2f2f2;
+  transition: all 0.2s ease;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.main-content-categories-filter-button {
+  display: flex;
+  justify-content: space-between;
+  width: 132px;
+  padding: 16px 20px;
+  font-family: "Avenir Heavy";
+  border-radius: 12px;
+  border: 1px solid #d8d8d8;
+  cursor: pointer;
+}
+
+.main-content-categories-filter-button:hover {
+  background: #f1f1f1;
+  transition: all 0.2s ease;
+}
+
+/* ↑ main content categories ends here ↑ */
+/* ↓ main content collage starts here ↓ */
+
+.main-content-collage {
+  margin: 0px 20px 0px 155px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 25px;
+  cursor: default;
+}
+
+.main-content-collage-photos {
+  width: 270px;
+}
+
+.collage-photos {
+  width: 325px;
+  height: 230px;
+  cursor: pointer;
+}
+
+.main-content-collage-photos-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content-collage-first-photo-elements-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 69px;
+  position: absolute;
+  left: 22px;
+  top: 37px;
+}
+
+.section-content-account-reminder-icon-box,
+.section-content-account-message-icon-box {
+  position: relative;
+}
+
+.main-content-collage-first-photos-relative {
+  position: relative;
+}
+
+.main-content-collage-first-photo-elements {
+  background-color: white;
+  padding: 4px 4px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.main-content-collage-photos-box span {
+  font-size: 17px;
+  font-family: "Avenir Medium";
+  width: 100%;
+}
+
+.main-content-collage-photos-load-more-box {
+  margin: 86px 100px 120px 157px;
+  text-align: center;
+}
+
+.main-content-collage-photos-box-load-more {
+  cursor: pointer;
+  font-family: "Avenir Heavy";
+  padding: 16px 108px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  opacity: 1;
+}
+
+.main-content-collage-photos-box-load-more:hover {
+  background: #e7e7e7;
+  transition: all 0.2s ease;
+}
+
+/* ↑ main content collage ends here ↑ */
+/* ↓ Content Top Designers starts here ↓ */
+
+.main-content-designers {
+  margin: 0px 100px 0px 157px;
+}
+
+.main-content-designers-title {
+  cursor: default;
+  font-family: "Avenir Heavy";
+  font-size: 32px;
+  padding: 67px 0px 54px 0px;
+}
+
+.main-content-designers-title-viewAll {
+  font-family: "Avenir Heavy";
+  font-size: 14px;
+  opacity: 30%;
+  cursor: pointer;
+}
+
+.main-content-designers-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: default;
+}
+
+.main-content-designers-top-designers {
+  font-family: "Avenir Medium";
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content-designers-description {
+  padding: 15px 0px 10px 0px;
+}
+
+.main-content-designers-description-fourth {
+  text-align: center;
+  padding: 15px 0px 34px 0px;
+}
+
+.main-content-designers-top-designers span {
+  font-family: "Avenir Heavy";
+  margin-top: 17px;
+  padding: 12px 36px;
+  border-radius: 12px;
+  border: 1px solid #d8d8d8;
+  cursor: pointer;
+}
+
+.main-content-designers-top-designers span:hover {
+  background: #f1f1f1;
+  transition: all 0.3s ease;
+}
+
+.main-content-designers-small-description {
+  font-size: 12px;
+  font-family: "Avenir Book";
+}
+
+.main-content-designers-following-description {
+  background: #f1f1f1;
+}
+
+.main-content-designers-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ↑ Content Top Designers ends here ↑ */
+/* ↓ Content additional information (lists) starts here ↓ */
+
+.main-content-additional-information {
+  margin: 129px 100px 0px 157px;
+  display: flex;
+  justify-content: space-between;
+  cursor: default;
+}
+
+ul {
+  font-size: 16px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "Avenir Heavy";
+}
+
+li {
+  font-size: 16px;
+  font-family: "Avenir Book";
+  list-style: none;
+  padding-top: 16px;
+}
+.search-submit {
+  background-color: transparent;
+  padding: 0;
+  margin-left: -44px;
+  margin-top: 4px;
+}
+.search-submit:hover {
+  background-color: transparent;
+}
+
+/* ↑ Content additional information (lists) ends here ↑ */
+/* ↓ Footer starts here ↓ */
+
+.footer-social-media-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 100px 43px 157px;
+}
+
+.footer-social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+
+.footer-social-media-icons img {
+  cursor: pointer;
+}
+
+.footer-social-media-content p {
+  font-family: "Avenir Book";
+  cursor: pointer;
+}
+
+.footer-social-media-content span {
+  font-family: "Avenir Black";
+  cursor: default;
+}
+
+/* ↑ Footer ends here ↑ */
+
+/* Second page (second.html) Styles */
+
+.main-content-table {
+  margin: 71px 65px 0px 145px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+
+th,
+td {
+  border: none;
+  text-align: left;
+  padding: 26px;
+}
+
+tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+th {
+  font-size: 18px;
+  font-family: "Avenir Heavy";
+}
+
+td {
+  font-size: 16px;
+  font-family: "Avenir Heavy";
+  color: #afafaf;
+}
+
+.selected-product td {
+  background-color: #f2f2f2;
+  color: #222222;
+}
+
+.selected-product-pink td {
+  color: #ff2288;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+.header-account-icon {
+  border: 1px solid #e7e7e7;
+  border-radius: 50%;
+  padding: 14px;
+}
